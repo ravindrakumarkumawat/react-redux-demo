@@ -29,3 +29,10 @@ export default connect(
   mapStateToProps,
   mapDispatchToProps
 )(ItemContainer)
+
+// // If you only want to dispatch action, 
+// // But do not want to subscribe to the state changes in the store
+// export default connect(
+//   null,
+//   mapDispatchToProps
+// )(ItemContainer)
